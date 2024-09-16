@@ -3,3 +3,32 @@ body {
   height: 100%;
   margin: 0;
 }
+.header {
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 10px auto;
+}
+.nav-bar a {
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.text {
+  /* width: 800px; */
+  overflow-wrap: break-word;
+  word-break: break-all;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+}
